@@ -7,4 +7,4 @@ const connection = mysql.createConnection({
     database: 'curdmsql'
 });
 
-module.exports = connection.promise(); // Return promise-compatible connection
+module.exports = connection; // Return promise-compatible connection
